@@ -1,0 +1,300 @@
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+
+header .header-all {
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+  position: relative;
+
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+
+}
+
+header nav a {
+  color: black;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+
+
+header nav span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+header .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+
+}
+
+header .icons i {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+header .wish-list {
+  text-align: center;
+  margin: 1rem 0;
+  position: relative;
+}
+
+header .wish-list a {
+
+  margin-left: 40px;
+}
+
+/* Slide */
+
+.bars .actives, .notactive img {
+  height: 82vh !important;
+}
+
+
+
+
+.side-bar {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100vh;
+  z-index: 3;
+  transition: all 1s;
+}
+
+
+
+
+.transit {
+  transform: translate(355px, 0);
+
+}
+
+
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.head h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+
+.head .fa-xmark {
+  color: black;
+  cursor: pointer;
+}
+
+
+hr {
+  border: none;
+  border-top: 1px solid #681616;
+  margin: 10px 0;
+}
+
+
+.content-side h3 {
+  background-color: #fff3cb;
+  padding: 5px 5px;
+  font-size: 15px;
+  margin: 0;
+  color: #856404;
+}
+
+.content-side span {
+  font-size: 1rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  justify-content: center;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+
+}
+
+.open-case {
+  position: relative;
+}
+
+.header-all .usd-blog {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  z-index: 1;
+  background-color: white;
+  width: 60px;
+  cursor: pointer;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+
+
+.header-all .lang {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  z-index: 1;
+  background-color: white;
+  width: 80px;
+  transform: scale(0);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.header-all ul li {
+  list-style: none;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.header-all .account-blog {
+  width: 25%;
+  height: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.356);
+  text-align: center;
+  background-color: white;
+  padding: 5px 20px;
+  position: absolute;
+  z-index: 1;
+  top: 48px;
+  right: 162px;
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.header-all .account-blog input {
+  border-radius: 20px;
+  width: 300px;
+  padding: 10px 5px;
+  margin-top: 20px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.267)
+}
+
+.header-all .account-blog a {
+  color: rgba(0, 0, 0, 0.575);
+  font-weight: 600;
+  margin: 15px 0;
+  display: inline-block;
+
+}
+
+.header-all .account-blog button {
+  border-radius: 20px;
+  background-color: pink;
+  border: none;
+  width: 300px;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.search-bar {
+  position: relative;
+}
+
+.header-all .search {
+  transform: scale(0);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  position: absolute;
+  top: 30px;
+  left: -10rem;
+  border: 1px solid rgb(175, 175, 175);
+  background-color: #fff;
+  padding: 0 10px 0 0;
+}
+
+.header-all .search input {
+  width: 100%;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+}
+
+.header-all .open-case .icon-search {
+  display: flex;
+}
+
+
+.transform {
+  transform: scale(1) !important;
+}
+
+header .wish-list .cosmetics {
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  width: 70%;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  top: 41px;
+  left: 230px;
+  transform: scale(0);
+  transition: all 0.6s;
+}
+
+header .wish-list .cosmetics .bottom a {
+  display: block;
+  margin-left: 0;
+}
+
+header .wish-list .cosmetics .top h4 {
+  text-align: center;
+}
+
+header .wish-list .images {
+  width: 100%;
+  height: 194px;
+  display: flex;
+
+  align-items: center;
+}
+
+header .wish-list .images img {
+  width: 95%;
+}
